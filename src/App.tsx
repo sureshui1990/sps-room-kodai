@@ -13,7 +13,7 @@ import Banner from './components/Banner';
 
 import Services from './components/Services';
 
-const { Header, Content, Footer } = Layout;
+const { Header, Content } = Layout;
 const { Title } = Typography;
 const items = [
   {

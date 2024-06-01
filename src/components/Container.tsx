@@ -1,14 +1,13 @@
 // src/Components/Container .jsx
 import { Row, Col } from 'antd'
 
-const Container:React.FC = (props) => {
+const Container:React.FC = () => {
 
-    const { children } = props
 
     return (<Row className='container'>
         <Col xs={1} sm={2}></Col>
         <Col xs={22} sm={20}>
-          { children }
+          {/* { props.children } */}
         </Col>
         <Col xs={1} sm={2}></Col>
       </Row>)
